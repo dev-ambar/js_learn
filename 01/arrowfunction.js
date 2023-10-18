@@ -66,3 +66,12 @@ const sayHello = () => {
 console.log(sayHello());
 
 
+/* this is bessic defirence in normal function and arrow function 
+
+1:   arguments object is not working in arrow function  if you want to print unlimited number of input parameters in arrow function 
+     then use spread operator .for example is given above. 
+2:   hosting is not allowed in arrow function 
+3:   this keyword has globel scope if you print  this keyword it represent window object while in normal 
+     function it return current calling object 
+*/
+
